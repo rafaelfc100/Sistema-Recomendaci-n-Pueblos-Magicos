@@ -1,0 +1,29 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+
+# Embeddings y similitud semántica
+sentence-transformers>=2.7
+torch>=2.0
+
+# Reducción dimensional y clustering
+umap-learn>=0.5
+faiss-cpu>=1.7       # usar faiss-gpu si tienes GPU
+
+# API web
+flask>=3.0
+flask-cors>=4.0
+
+# Visualización adicional
+plotly>=5.18
+wordcloud>=1.9
+
+# BERTopic (experimento, opcional)
+bertopic>=0.16
+hdbscan>=0.8
+
+# Colab / exposición pública (opcional)
+pyngrok>=7.0
